@@ -58,12 +58,24 @@ body {
     line-height: 30px;
 }
 
-.credit-card-front > p {
+.credit-card-front > .name {
     font-size: 2em;
     margin-top: 0.3em;
 }
 
+/*CREDIT CARD BACK*/
 
-.credit-card-back {
+.magnetic-strip {
+    margin-top: 2em;
+    height: 3.5em;
+    background-color: black;
+}
 
+.credit-card-back > .information-wrapper {
+    height: 3.5em;
+    width: 60%;
+    margin-top: 2em;
+    margin-left: 1em;
+    display: flex;
+    background-color: #C4C4C4;
 }
